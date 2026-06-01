@@ -54,7 +54,6 @@ def parse_args():
         parser.error("The number of agent names must match the number of agent counts.")
         
     return args
-
 async def main():
     args = parse_args()
     
